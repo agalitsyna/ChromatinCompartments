@@ -1,0 +1,3 @@
+	author	cell type	data	gse	paper	path fastq R1	path fastq R2	protocol short	rep	series	source	species	stage	title	treatment	running_mode	technical_rep
+0	John,,Rinn	MCF-7	Mar-10-2015	GSE66733	Barutcu-2015	/home/HIC_DB/META/GSE66733_SRA/Supp_GSM1631185_MCF-7_Hi-C/SRR1909070_pass_1.fastq.gz	/home/HIC_DB/META/GSE66733_SRA/Supp_GSM1631185_MCF-7_Hi-C/SRR1909070_pass_2.fastq.gz	Hi-C	NA	GSM1631185	Breast-cancer-cell-line	Homo-sapiens	NA	MCF-7-Hi-C	NA	Barutcu	1
+1	John,,Rinn	MCF-10A	Mar-10-2015	GSE66733	Barutcu-2015	/home/HIC_DB/META/GSE66733_SRA/Supp_GSM1631184_MCF-10A_Hi-C/SRR1909069_pass_1.fastq.gz	/home/HIC_DB/META/GSE66733_SRA/Supp_GSM1631184_MCF-10A_Hi-C/SRR1909069_pass_2.fastq.gz	Hi-C	NA	GSM1631184	Mammary-epithelial-cell-line	Homo-sapiens	NA	MCF-10A-Hi-C	NA	Barutcu	1
