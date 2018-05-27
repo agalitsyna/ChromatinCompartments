@@ -15,6 +15,7 @@ and multiple sources of Hi-C datasets:
 Other requirements: 
 - [GEOparse parallel version](https://github.com/agalitsyna/GEOparse) for raw data download and parser
 - [cooler](https://github.com/mirnylab/cooler) Python package
+- nextflow
 - basic anaconda scientific packages (pandas, numpy, scipy, matplotlib, seaborn) 
 - java compatible with juicer tools version
 - bwa
@@ -66,6 +67,11 @@ The script also sets up a folder with initial fastq and genome data. The folder 
 Please, note that before running this step genome file of interest should be downloaded as a single gzipped file, called by genome assembly name (e.g. hg19.fa.gz) and placed to ../data/genome/ folder.
 
 Then you can run distiller in this folder with resulting .yml file (e.g. project_hg19_Zuin.yml).
+Example distiller run: 
+
+```bash
+nextflow run distiller.nf -params-file project_hg19_Zuin.yml -with-docker -profile standard
+```
 
 3. Convert resulting .cool files to .hic and call compartments. 
 
