@@ -19,6 +19,17 @@ Other requirements:
 - java compatible with juicer tools version
 - bwa
 
+### TODO
+
+1. Add thorough description of processed datasets.
+
+2. Multi-species examples. 
+
+3. Description of compartments calling details by different tools.
+
+4. Distiller vs juicer processing protocols and references to the papers.
+
+5. References section. 
 
 ### Usage
 1. Download GEO entries.
