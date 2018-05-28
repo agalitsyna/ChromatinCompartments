@@ -1,6 +1,6 @@
 # ChromatinCompartments
 
-This is a small project to call chromatin compartments in a unified way from any Hi-C dataset. Operating system: 
+This is a small project to call chromatin compartments in a unified way from any Hi-C dataset. Operating system: Linux only. 
 
 It combines multiple tools for Hi-C data processing, including:
 

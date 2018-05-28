@@ -63,7 +63,7 @@ do
   printf "${sep}${sep}${sep}${sep}- test_${genome}${postfix}/fastq/${pref}/lane$rep_tech/${name}\n"  >> $param_out
   printf "${sep}${sep}${sep}${sep}- test_${genome}${postfix}/fastq/${pref}/lane$rep_tech/${name2}\n"  >> $param_out
 
-done < <(tail -n +2 $INPUT | sort -k3,4 -k14,15 -k16,17 -k10,11 -k18,19)
+done < <(tail -n +2 $INPUT | sort -k3,3 -k14,14 -k16,16 -k10,10n -k18,18n )
 
 printf "\n\n${sep}library_groups:\n"  >> $param_out
 
